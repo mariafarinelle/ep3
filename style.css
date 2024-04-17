@@ -1,0 +1,60 @@
+header{
+    grid-area: cabe;
+    background-color: #DCAFAC;
+}
+aside{
+    grid-area: brac;
+    background-color: #F0D9D1;
+}
+main{
+    grid-area: prin;
+    background-color: #DDB7AC;
+}
+footer{
+    grid-area: roda;
+    background-color: #FFCFD9;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "cabe cabe"
+    "brac prin"
+    "roda roda";
+    grid-template-columns: 200px auto;
+    grid-template-rows: 200px 2300px 90px;
+    border: 5px solid rgb(29, 29, 29);
+}
+.caixa_mae{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border: rgb(0, 0, 0) solid 13px;
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8CECD;
+    border-radius: 15px;
+    box-shadow: 5px 8px 10px rgb(0, 0, 0);
+}
+.card img{
+    width: 180px;
+    margin: auto;
+}
+.card a{
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 25px;
+    margin: 25px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
